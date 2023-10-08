@@ -307,11 +307,13 @@ header {
         display: grid;
         text-align: center;
         background-color: #fcbc5c;
-        margin-top: 20px;
+      
+        
     }
-
-
-
+    
+    .tSobFig h2{
+      margin-top: 40px;
+    }
 
     @media screen and (max-device-width: 414px){
 
@@ -320,3 +322,22 @@ header {
     @media screen and (min-device-width: 415px) and (max-device-width: 1280px){
 
     }
+
+    .empresas{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      justify-items: center;
+      row-gap: 50px;
+      background-color: #428bca;
+      padding-top: 50px;
+
+    }
+
+    h4{
+      padding-top: 20px;
+      text-align: center;
+      background-color: #428bca;  
+    }
+
+  
